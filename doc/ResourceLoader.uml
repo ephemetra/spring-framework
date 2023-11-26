@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.springframework.core.io.ResourceLoader</OriginalElement>
+  <nodes>
+    <node x="139.0" y="142.0">org.springframework.core.io.ClassRelativeResourceLoader</node>
+    <node x="213.5" y="-14.0">org.springframework.core.io.ResourceLoader</node>
+    <node x="-139.0" y="142.0">org.springframework.core.io.FileSystemResourceLoader</node>
+    <node x="489.5" y="64.0">org.springframework.core.io.support.ResourcePatternResolver</node>
+    <node x="436.0" y="142.0">org.springframework.core.io.support.PathMatchingResourcePatternResolver</node>
+    <node x="19.25" y="64.0">org.springframework.core.io.DefaultResourceLoader</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.springframework.core.io.support.PathMatchingResourcePatternResolver" target="org.springframework.core.io.support.ResourcePatternResolver" relationship="REALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="org.springframework.core.io.support.ResourcePatternResolver" target="org.springframework.core.io.ResourceLoader" relationship="INTERFACE_GENERALIZATION">
+      <point x="-121.5" y="0.0" />
+      <point x="300.5" y="78.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="org.springframework.core.io.FileSystemResourceLoader" target="org.springframework.core.io.DefaultResourceLoader" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="-10.0" y="117.0" />
+      <point x="133.75" y="117.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="org.springframework.core.io.DefaultResourceLoader" target="org.springframework.core.io.ResourceLoader" relationship="REALIZATION">
+      <point x="107.0" y="-14.0" />
+      <point x="-59.75" y="14.0" />
+    </edge>
+    <edge source="org.springframework.core.io.ClassRelativeResourceLoader" target="org.springframework.core.io.DefaultResourceLoader" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="277.5" y="117.0" />
+      <point x="133.75" y="117.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.3830687830687831" showDependencies="false" x="333.5" y="87.99999999999997" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
